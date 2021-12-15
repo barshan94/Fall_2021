@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box
+}
+
+
+.container {
+  padding: 16px;
+}
+
+.button {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.back {
+
+  text-decoration: none;
+  float: left;
+  padding: 4px 0px;
+  margin: 5px;
+  color: white;
+  width: 10%;
+  background-color: #669DB3FF;
+
+  overflow: hidden
+}
+
+#back-id {
+
+  text-decoration: none;
+  float: left;
+  padding: 4px 0px;
+  margin: 5px;
+  color: white;
+  width: 10%;
+  background-color: #669DB3FF;
+
+  overflow: hidden
+}
+
+.loginbtn {
+  background-color:blue;
+  color: white;
+  padding: 6px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  }
+
+.add {
+
+
+
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  background-color:red;
+  color: whitesmoke;
+  padding: 4px 20px;
+  text-align: center;
+  margin: 8px 0;
+ 
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.update {
+  background-color:#FC766AFF;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+
+.delete {
+  background-color:#2D2926FF;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+
+.search {
+  background-color:#F95700FF;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.show {
+  background-color:#00239CFF;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+} 
+
+
+.police {
+
+
+
+    
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color:#9F6B99FF;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.fire {
+
+
+
+    
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color:#DBB04AFF;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+
+
+.ambulance {
+
+
+
+    
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color:#F7B32BFF;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+
+.more {
+
+
+
+    
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color:#011936FF;
+color: whitesmoke;
+padding: 4px 20px;
+text-align: center;
+margin: 8px 0;
+
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+
+.instruction {
+  padding: 2px;
+}
+
+
+input[type=text], input[type=password],input[type=number], input[type=email] {
+  width: 100%;
+  padding: 1px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.resetbtn {
+  background-color:blue;
+  color: white;
+  padding: 6px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: white;
+  text-align: center;
+
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+
+}
+
+
+
+  .logout {
+    text-decoration: none;
+    float: left;
+    padding: 16px;
+    margin: 5px;
+    color: white;
+    width: 10%;
+    background-color: #BA0020FF;
+
+    overflow: hidden
+  }
+  
+  .loginbtn:hover {
+    opacity:1;
+  }
+  
+
+  b {
+    color: dodgerblue;
+  }
+
+ /* div > span{
+    font-weight: bolder;
+    background-color: red;
+  }
+  div > h2{
+    font-weight: bolder;
+    background-color: red;
+  }
+
+  #h2tag{
+    color: red;
+    text-align: right;
+  } */
+
+
+  p {
+    text-align: center;
+    color: yellow;
+  }
+
+  h1 {
+    text-align: center;
+    color: goldenrod;
+  }
+
+  body {
+      background-color: #54945b;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
